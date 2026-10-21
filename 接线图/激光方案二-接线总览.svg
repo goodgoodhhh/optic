@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1760" viewBox="0 0 2400 1760"><style>text{font-family:"Microsoft YaHei",sans-serif}</style>
+<rect x="0" y="0" width="2400" height="1760" rx="0" fill="#eef4f5" stroke="#eef4f5" stroke-width="2"/>
+<text x="65" y="74" font-size="49" fill="#142838" font-weight="700">激光模块方案二｜软件反相接收接线图</text>
+<text x="67" y="123" font-size="28" fill="#526575" font-weight="400">对应 OOK SWRX 115200 INV 固件 · 接收 OUT 直接接 PA3 · 音频与按键接口保留</text>
+<rect x="60" y="155" width="1110" height="1180" rx="22" fill="#f4fbf4" stroke="#b5d0b8" stroke-width="2"/>
+<rect x="1230" y="155" width="1110" height="1180" rx="22" fill="#f1f7ff" stroke="#b0c9e2" stroke-width="2"/>
+<text x="90" y="208" font-size="42" fill="#142838" font-weight="700">A：发送端</text>
+<text x="1260" y="208" font-size="42" fill="#142838" font-weight="700">B：接收端</text>
+<rect x="100" y="262" width="170" height="214" rx="23" fill="#233437" stroke="#6c7e87" stroke-width="2"/>
+<rect x="113" y="287" width="144" height="146" rx="8" fill="#e6edf6" stroke="#e6edf6" stroke-width="2"/>
+<text x="140" y="369" font-size="68" fill="#426b8c" font-weight="400">♫</text>
+<text x="121" y="461" font-size="26" fill="#fff" font-weight="400">播放人声</text>
+<text x="113" y="524" font-size="28" fill="#142838" font-weight="700">手机 / 音源</text>
+<rect x="400" y="270" width="290" height="210" rx="18" fill="#ddefda" stroke="#91b48a" stroke-width="2"/>
+<text x="425" y="317" font-size="33" fill="#142838" font-weight="700">LM386 A</text>
+<text x="425" y="359" font-size="26" fill="#142838" font-weight="400">3.5mm 音频输入</text>
+<text x="425" y="399" font-size="26" fill="#142838" font-weight="400">喇叭端输出音频</text>
+<text x="425" y="447" font-size="24" fill="#c94a42" font-weight="700">5V_A / GND_A</text>
+<path d="M 270 365 L 400 365" fill="none" stroke="#279454" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="400,365 382,356 382,374" fill="#279454"/>
+<text x="285" y="339" font-size="23" fill="#279454" font-weight="400">音频线</text>
+<rect x="800" y="270" width="320" height="210" rx="18" fill="#e0f2eb" stroke="#91bcae" stroke-width="2"/>
+<text x="824" y="317" font-size="31" fill="#142838" font-weight="700">音频调理电路</text>
+<text x="824" y="359" font-size="28" fill="#142838" font-weight="400">衰减 / 隔直</text>
+<text x="824" y="399" font-size="28" fill="#142838" font-weight="400">偏置 / 低通</text>
+<text x="824" y="447" font-size="25" fill="#526575" font-weight="400">见电路详图①</text>
+<path d="M 690 365 L 800 365" fill="none" stroke="#279454" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="800,365 782,356 782,374" fill="#279454"/>
+<text x="706" y="339" font-size="23" fill="#279454" font-weight="400">输出</text>
+<rect x="400" y="590" width="350" height="400" rx="22" fill="#233437" stroke="#91a18e" stroke-width="2"/>
+<text x="424" y="638" font-size="26" fill="#fff" font-weight="700">A板：VOICE + SEND</text>
+<text x="424" y="678" font-size="29" fill="#e8d996" font-weight="700">STM32F103RCT6</text>
+<rect x="505" y="730" width="140" height="140" rx="5" fill="#172126" stroke="#d2b662" stroke-width="2"/>
+<text x="528" y="810" font-size="27" fill="#fff" font-weight="400">F103RC</text>
+<path d="M 490 740 L 505 740" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 740 L 660 740" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 754 L 505 754" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 754 L 660 754" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 768 L 505 768" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 768 L 660 768" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 782 L 505 782" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 782 L 660 782" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 796 L 505 796" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 796 L 660 796" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 810 L 505 810" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 810 L 660 810" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 824 L 505 824" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 824 L 660 824" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 838 L 505 838" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 838 L 660 838" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 490 852 L 505 852" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 645 852 L 660 852" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<rect x="540" y="925" width="70" height="50" rx="4" fill="#a2b1b5" stroke="#657982" stroke-width="2"/>
+<text x="423" y="959" font-size="25" fill="#fff" font-weight="400">USB 供电</text>
+<path d="M 960 480 L 960 535 L 600 535 L 600 590" fill="none" stroke="#279454" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,590 609,572 591,572" fill="#279454"/>
+<text x="605" y="516" font-size="25" fill="#279454" font-weight="700">调理后：0～3.3V，静音约 1.65V</text>
+<circle cx="600" cy="590" r="7" fill="#167b73"/>
+<text x="420" y="573" font-size="28" fill="#217150" font-weight="700">PA1 / A1</text>
+<circle cx="750" cy="740" r="7" fill="#167b73"/>
+<text x="606" y="718" font-size="27" fill="#b8dbff" font-weight="700">PA2 / A2</text>
+<rect x="810" y="625" width="270" height="285" rx="18" fill="#fff8e5" stroke="#d9c48d" stroke-width="2"/>
+<text x="832" y="672" font-size="29" fill="#142838" font-weight="700">激光控制接口</text>
+<text x="832" y="715" font-size="23" fill="#526575" font-weight="400">见详图②的条件</text>
+<text x="832" y="785" font-size="22" fill="#142838" font-weight="400">PA2 → 控制/缓冲</text>
+<text x="832" y="826" font-size="25" fill="#142838" font-weight="700">→ 发射模块 S</text>
+<text x="832" y="867" font-size="22" fill="#c94a42" font-weight="700">保持高亮、低灭</text>
+<path d="M 750 740 L 810 740" stroke-dasharray="9 9" fill="none" stroke="#337cb9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="810,740 792,731 792,749" fill="#337cb9"/>
+<path d="M 1080 740 L 1104 740" fill="none" stroke="#d18b24" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1130" cy="740" r="26" fill="#ffc659" stroke="#d18b24" stroke-width="4"/>
+<text x="1096" y="696" font-size="27" fill="#b36719" font-weight="700">激光</text>
+<path d="M 1158 740 L 1272 740" fill="none" stroke="#e09223" stroke-width="8" stroke-dasharray="10 12"/>
+<polygon points="1272,740 1253,728 1253,752" fill="#e09223"/>
+<text x="1127" y="581" font-size="26" fill="#b36719" font-weight="700">OOK</text>
+<text x="1127" y="618" font-size="24" fill="#b36719" font-weight="700">可见光</text>
+<text x="1127" y="652" font-size="24" fill="#b36719" font-weight="700">无线</text>
+<rect x="90" y="1050" width="1050" height="245" rx="18" fill="#fff" stroke="#cbded0" stroke-width="2"/>
+<text x="115" y="1095" font-size="30" fill="#142838" font-weight="700">发送模块供电与接地</text>
+<text x="115" y="1138" font-size="26" fill="#142838" font-weight="400">A板、LM386、音频调理、激光模块的地 → GND_A</text>
+<text x="115" y="1181" font-size="27" fill="#142838" font-weight="400">激光模块 VCC 按规格供电；GND → GND_A</text>
+<text x="115" y="1224" font-size="25" fill="#c94a42" font-weight="700">S 仅在确认为低电流逻辑输入时可由 PA2 直接控制。</text>
+<text x="115" y="1267" font-size="25" fill="#c94a42" font-weight="700">供电型 S 需驱动；不把 S 接到旧 S8050 集电极。</text>
+<rect x="1270" y="625" width="350" height="285" rx="18" fill="#fff" stroke="#afc8dc" stroke-width="2"/>
+<text x="1290" y="672" font-size="32" fill="#142838" font-weight="700">激光接收模块</text>
+<circle cx="1310" cy="740" r="30" fill="#263a4a" stroke="#869baa" stroke-width="4"/>
+<text x="1360" y="738" font-size="24" fill="#142838" font-weight="700">OUT 直接接 PA3</text>
+<text x="1360" y="779" font-size="26" fill="#142838" font-weight="400">软件完成反相</text>
+<text x="1290" y="828" font-size="25" fill="#337cb9" font-weight="700">有光 OUT 低，无光高</text>
+<text x="1290" y="874" font-size="22" fill="#526575" font-weight="400">VCC→3V3*；GND→GND_B</text>
+<rect x="1740" y="590" width="350" height="400" rx="22" fill="#233437" stroke="#91a18e" stroke-width="2"/>
+<text x="1764" y="638" font-size="26" fill="#fff" font-weight="700">B板：VOICE + LISTEN</text>
+<text x="1764" y="678" font-size="29" fill="#e8d996" font-weight="700">STM32F103RCT6</text>
+<rect x="1845" y="730" width="140" height="140" rx="5" fill="#172126" stroke="#d2b662" stroke-width="2"/>
+<text x="1868" y="810" font-size="27" fill="#fff" font-weight="400">F103RC</text>
+<path d="M 1830 740 L 1845 740" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 740 L 2000 740" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 754 L 1845 754" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 754 L 2000 754" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 768 L 1845 768" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 768 L 2000 768" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 782 L 1845 782" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 782 L 2000 782" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 796 L 1845 796" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 796 L 2000 796" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 810 L 1845 810" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 810 L 2000 810" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 824 L 1845 824" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 824 L 2000 824" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 838 L 1845 838" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 838 L 2000 838" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1830 852 L 1845 852" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1985 852 L 2000 852" fill="none" stroke="#d2b662" stroke-width="4" stroke-linecap="round"/>
+<rect x="1880" y="925" width="70" height="50" rx="4" fill="#a2b1b5" stroke="#657982" stroke-width="2"/>
+<text x="1763" y="959" font-size="25" fill="#fff" font-weight="400">USB 供电</text>
+<path d="M 1620 740 L 1740 740" fill="none" stroke="#337cb9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1740,740 1722,731 1722,749" fill="#337cb9"/>
+<text x="1628" y="711" font-size="22" fill="#337cb9" font-weight="700">0～3.3V</text>
+<circle cx="1740" cy="740" r="7" fill="#167b73"/>
+<text x="1760" y="718" font-size="28" fill="#b8dbff" font-weight="700">PA3 / A3</text>
+<circle cx="1910" cy="990" r="7" fill="#167b73"/>
+<text x="1825" y="916" font-size="29" fill="#b8dbff" font-weight="700">PA4 / A4</text>
+<path d="M 1910 990 L 1910 1025 L 1415 1025 L 1415 1080" fill="none" stroke="#337cb9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1415,1080 1424,1062 1406,1062" fill="#337cb9"/>
+<rect x="1270" y="1080" width="290" height="150" rx="18" fill="#e0f2eb" stroke="#91bcae" stroke-width="2"/>
+<text x="1294" y="1129" font-size="30" fill="#142838" font-weight="700">滤波 / 隔直</text>
+<text x="1294" y="1174" font-size="25" fill="#526575" font-weight="400">见电路详图③</text>
+<text x="1294" y="1210" font-size="23" fill="#526575" font-weight="400">GND_B</text>
+<rect x="1690" y="1080" width="290" height="150" rx="18" fill="#ddefda" stroke="#91b48a" stroke-width="2"/>
+<text x="1710" y="1126" font-size="30" fill="#142838" font-weight="700">LM386 B</text>
+<text x="1710" y="1168" font-size="25" fill="#142838" font-weight="400">3.5mm 音频输入</text>
+<text x="1710" y="1209" font-size="23" fill="#c94a42" font-weight="700">5V_B / GND_B</text>
+<path d="M 1560 1150 L 1690 1150" fill="none" stroke="#279454" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1690,1150 1672,1141 1672,1159" fill="#279454"/>
+<text x="1582" y="1127" font-size="23" fill="#279454" font-weight="400">音频</text>
+<path d="M 1980 1150 L 2090 1150" fill="none" stroke="#279454" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="2090,1150 2072,1141 2072,1159" fill="#279454"/>
+<text x="1990" y="1127" font-size="23" fill="#279454" font-weight="400">喇叭端</text>
+<polygon points="2095,1125 2125,1125 2180,1086 2180,1214 2125,1175 2095,1175" fill="#64798a" stroke="#344c5a" stroke-width="3"/>
+<path d="M 2198 1115 Q 2233 1150 2198 1185" fill="none" stroke="#64798a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2220 1094 Q 2280 1150 2220 1206" fill="none" stroke="#64798a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2135" y="1267" font-size="27" fill="#142838" font-weight="400">喇叭</text>
+<text x="1270" y="1275" font-size="25" fill="#142838" font-weight="700">接收侧：B板、光电前端、滤波与功放共 GND_B。</text>
+<text x="1270" y="1314" font-size="24" fill="#526575" font-weight="400">接收播放另需一块功放；两板之间不连接导线。</text>
+<rect x="60" y="1370" width="2280" height="260" rx="18" fill="#fff" stroke="#cbd9dd" stroke-width="2"/>
+<text x="90" y="1421" font-size="35" fill="#142838" font-weight="700">两块板分别接自己的 OLED 与外接按键</text>
+<text x="90" y="1476" font-size="28" fill="#142838" font-weight="400">OLED：PB8 → SCL；PB9 → SDA</text>
+<text x="90" y="1522" font-size="28" fill="#142838" font-weight="400">3V3 → VCC；GND → GND</text>
+<text x="90" y="1570" font-size="25" fill="#526575" font-weight="400">A1=PA1，A2=PA2，A3=PA3，A4=PA4</text>
+<text x="900" y="1476" font-size="28" fill="#142838" font-weight="400">K1 → PB1　K2 → PB0　K3 → PA5　K4 → PC0</text>
+<text x="900" y="1522" font-size="27" fill="#142838" font-weight="400">每个按键的另一端接本机 GND，使用外接按键。</text>
+<text x="900" y="1570" font-size="25" fill="#142838" font-weight="400">发送端：K1到VOICE，K2到SEND，K3开始；接收自动播放。</text>
+<text x="65" y="1674" font-size="29" fill="#142838" font-weight="700">若只有一块 LM386：可放接收侧；手机直接经过音频调理电路后送 PA1。</text>
+<text x="65" y="1720" font-size="26" fill="#526575" font-weight="400">功能示意，按丝印找引脚；*接收模块需支持3.3V。模拟电平、模块速度和语音仍需实测。</text>
+<rect x="1270" y="250" width="1000" height="270" rx="18" fill="#fff" stroke="#afc8dc" stroke-width="2"/>
+<text x="1300" y="298" font-size="31" fill="#142838" font-weight="700">接收模块三根线（按丝印，不按孔位）</text><text x="1300" y="349" font-size="27" fill="#142838" font-weight="400">VCC → 接收板 3V3（模块支持3.3V时）</text><text x="1300" y="396" font-size="27" fill="#142838" font-weight="400">GND → 接收板 GND</text><text x="1300" y="443" font-size="28" fill="#337cb9" font-weight="700">OUT → 接收板 PA3 / A3（直接连接）</text><text x="1300" y="489" font-size="25" fill="#c94a42" font-weight="700">进入 PA3 的电平须在 0～3.3V；本版不加硬件反相器。</text>
+</svg>

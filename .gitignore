@@ -1,0 +1,17 @@
+# Keil build outputs and local debugger configuration
+/Objects/
+/Listings/
+/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bak
+*.log
+/keilkill.bat
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

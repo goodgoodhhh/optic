@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1880" viewBox="0 0 2400 1880"><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<rect x="0" y="0" width="2400" height="1880" rx="0" fill="#eef4f5" stroke="#eef4f5" stroke-width="2"/>
+<text x="70" y="76" font-size="48" fill="#142838" font-weight="700">激光模块直连版｜音频电路与接口详图</text>
+<text x="72" y="124" font-size="26" fill="#526575" font-weight="400">1µF 改用 4.7µF 电解 · 缺少的小电容支路可暂留空联调 · 电解极性须先确认直流电位</text>
+<rect x="70" y="165" width="2260" height="550" rx="18" fill="#fff" stroke="#d7e3e6" stroke-width="2"/>
+<text x="100" y="218" font-size="36" fill="#142838" font-weight="700">① 发送侧：LM386 喇叭输出 → 调理电路 → PA1</text>
+<text x="100" y="257" font-size="25" fill="#526575" font-weight="400">GND_A 均为发送侧地；先确认 LM386 喇叭负端与电源负端导通，才按图共地。</text>
+<text x="120" y="332" font-size="31" fill="#142838" font-weight="700">LM386</text>
+<text x="120" y="372" font-size="28" fill="#142838" font-weight="400">喇叭信号 +</text>
+<path d="M 300 355 L 400 355" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 400 355 L 400 380" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<rect x="386" y="380" width="28" height="145" rx="0" fill="#fff" stroke="#167b73" stroke-width="2"/>
+<path d="M 400 525 L 400 550" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="430" y="460.5" font-size="27" fill="#142838" font-weight="400"></text>
+<path d="M 400 550 L 400 570" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 400 550 L 400 570" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 377 570 L 423 570" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 384 582 L 416 582" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 393 594 L 407 594" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="352" y="632" font-size="23" fill="#526575" font-weight="400">GND_A</text>
+<text x="305" y="290" font-size="27" fill="#142838" font-weight="400">额外 10kΩ</text>
+<text x="305" y="323" font-size="27" fill="#142838" font-weight="400">衰减电位器</text>
+<path d="M 432 450 L 620 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<polygon points="411,450 435,438 435,462" fill="#167b73"/>
+<text x="450" y="493" font-size="25" fill="#526575" font-weight="400">滑动端</text>
+<path d="M 620 450 L 646 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 646 422 L 646 478" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 664 422 L 664 478" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 664 450 L 690 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="605" y="407" font-size="27" fill="#142838" font-weight="700">4.7µF</text>
+<text x="595" y="535" font-size="23" fill="#c94a42" font-weight="700">电解隔直，正极在右*</text>
+<path d="M 690 450 L 815 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 815 450 L 845 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<rect x="845" y="436" width="105" height="28" rx="0" fill="#fff" stroke="#167b73" stroke-width="2"/>
+<path d="M 950 450 L 980 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="857.5" y="417" font-size="27" fill="#142838" font-weight="400">3.3kΩ</text>
+<path d="M 980 450 L 1900 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1300" cy="450" r="7" fill="#167b73"/>
+<text x="1330" y="424" font-size="27" fill="#167b73" font-weight="700">X</text>
+<text x="1213" y="295" font-size="28" fill="#c94a42" font-weight="700">3V3_A</text>
+<path d="M 1300 305 L 1300 315" fill="none" stroke="#c94a42" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1300 315 L 1300 340" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<rect x="1286" y="340" width="28" height="65" rx="0" fill="#fff" stroke="#167b73" stroke-width="2"/>
+<path d="M 1300 405 L 1300 430" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1330" y="380.5" font-size="27" fill="#142838" font-weight="400">10kΩ</text>
+<path d="M 1300 430 L 1300 450" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1300 450 L 1300 475" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1300 475 L 1300 500" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<rect x="1286" y="500" width="28" height="65" rx="0" fill="#fff" stroke="#167b73" stroke-width="2"/>
+<path d="M 1300 565 L 1300 590" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1330" y="540.5" font-size="27" fill="#142838" font-weight="400">10kΩ</text>
+<path d="M 1300 590 L 1300 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1300 580 L 1300 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1277 600 L 1323 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1284 612 L 1316 612" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1293 624 L 1307 624" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1252" y="662" font-size="23" fill="#526575" font-weight="400">GND_A</text>
+<circle cx="1600" cy="450" r="7" fill="#167b73"/>
+<g opacity="0.48"><path d="M 1600 450 L 1600 500" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1600 500 L 1600 526" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1572 526 L 1628 526" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1572 544 L 1628 544" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1600 544 L 1600 570" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1642" y="545" font-size="24" fill="#526575" font-weight="400">22nF（缺件暂留空）</text>
+<path d="M 1600 570 L 1600 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1600 580 L 1600 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1577 600 L 1623 600" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1584 612 L 1616 612" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1593 624 L 1607 624" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1552" y="662" font-size="23" fill="#526575" font-weight="400">GND_A</text>
+</g><rect x="1900" y="395" width="350" height="110" rx="18" fill="#e5f5ef" stroke="#85b9ad" stroke-width="2"/>
+<text x="1930" y="439" font-size="33" fill="#142838" font-weight="700">A板 PA1（A1）</text>
+<text x="1930" y="480" font-size="25" fill="#526575" font-weight="400">ADC 音频输入</text>
+<rect x="1780" y="545" width="465" height="115" rx="18" fill="#fff4dd" stroke="#efce88" stroke-width="2"/>
+<text x="1800" y="584" font-size="25" fill="#142838" font-weight="400">静音约 1.65V，初调约 1Vpp</text>
+<text x="1800" y="625" font-size="23" fill="#c94a42" font-weight="700">测量确认全程 0～3.3V 后接 PA1</text>
+<text x="115" y="673" font-size="25" fill="#c94a42" font-weight="700">*输入极性前提：LM386喇叭输出已隔直且直流≈0V，此时＋朝PA1；否则＋接直流电位较高侧。</text>
+<rect x="70" y="755" width="1060" height="585" rx="18" fill="#fff" stroke="#d7e3e6" stroke-width="2"/>
+<text x="100" y="808" font-size="35" fill="#142838" font-weight="700">② 激光模块接口：按端子丝印接线</text><text x="100" y="847" font-size="25" fill="#526575" font-weight="400">方案二在软件中反相，接收侧不加反相器。</text><text x="120" y="909" font-size="30" fill="#142838" font-weight="700">接收模块（B侧）</text><text x="120" y="953" font-size="27" fill="#142838" font-weight="400">VCC → 接收板 3V3</text><text x="120" y="997" font-size="27" fill="#337cb9" font-weight="700">GND → GND_B；OUT → PA3 / A3</text><text x="120" y="1041" font-size="26" fill="#142838" font-weight="400">有光 OUT 低；PA3 输入须为 0～3.3V。</text><text x="120" y="1100" font-size="30" fill="#142838" font-weight="700">发射模块（A侧）</text><text x="120" y="1144" font-size="27" fill="#142838" font-weight="400">＋ / VCC → 发送板 3V3；－ / GND → GND_A</text><text x="120" y="1188" font-size="25" fill="#c94a42" font-weight="700">S → PA2 / A2，直接连接（厂家方法2）。</text><text x="120" y="1232" font-size="25" fill="#142838" font-weight="400">不接外部S8050、基极1kΩ和旧LED限流支路。</text><text x="120" y="1276" font-size="25" fill="#142838" font-weight="400">要求：PA2 高 → 激光亮，PA2 低 → 激光灭。</text><text x="120" y="1320" font-size="24" fill="#c94a42" font-weight="700">文字和语音共用这条光链路；最高速率尚需实测。</text>
+<rect x="1170" y="755" width="1160" height="585" rx="18" fill="#fff" stroke="#d7e3e6" stroke-width="2"/>
+<text x="1200" y="808" font-size="36" fill="#142838" font-weight="700">③ 接收侧：PA4 → 滤波/隔直 → 功放输入</text>
+<text x="1200" y="847" font-size="25" fill="#526575" font-weight="400">功放喇叭输出接喇叭；GND_B 均为接收侧地。</text>
+<rect x="1210" y="953" width="195" height="95" rx="18" fill="#e5f5ef" stroke="#85b9ad" stroke-width="2"/>
+<text x="1231" y="1009" font-size="30" fill="#142838" font-weight="700">B板 PA4</text>
+<path d="M 1405 1000 L 1430 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1430 1000 L 1460 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<rect x="1460" y="986" width="90" height="28" rx="0" fill="#fff" stroke="#167b73" stroke-width="2"/>
+<path d="M 1550 1000 L 1580 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1481" y="967" font-size="27" fill="#142838" font-weight="400">1kΩ</text>
+<path d="M 1580 1000 L 1740 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<circle cx="1630" cy="1000" r="7" fill="#167b73"/>
+<text x="1652" y="969" font-size="27" fill="#167b73" font-weight="700">Y</text>
+<g opacity="0.48"><path d="M 1630 1000 L 1630 1070" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1630 1070 L 1630 1096" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1602 1096 L 1658 1096" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1602 1114 L 1658 1114" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1630 1114 L 1630 1140" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1672" y="1115" font-size="24" fill="#526575" font-weight="400">47nF（缺件暂不装）</text>
+<path d="M 1630 1140 L 1630 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1630 1180 L 1630 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1607 1200 L 1653 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1614 1212 L 1646 1212" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1623 1224 L 1637 1224" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1582" y="1262" font-size="23" fill="#526575" font-weight="400">GND_B</text>
+</g><path d="M 1740 1000 L 1785 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1785 1000 L 1811 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1811 972 L 1811 1028" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1829 972 L 1829 1028" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1829 1000 L 1855 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1770" y="957" font-size="27" fill="#142838" font-weight="700">4.7µF</text>
+<path d="M 1855 1000 L 1995 1000" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="1755" y="1060" font-size="22" fill="#c94a42" font-weight="700">电解隔直，正极在左*</text>
+<rect x="1995" y="925" width="285" height="170" rx="18" fill="#e5eefc" stroke="#9db5d8" stroke-width="2"/>
+<text x="2015" y="970" font-size="29" fill="#142838" font-weight="700">接收端功放</text>
+<text x="2015" y="1010" font-size="25" fill="#142838" font-weight="400">3.5mm 音频输入</text>
+<text x="2015" y="1055" font-size="25" fill="#526575" font-weight="400">音量从最小调起</text>
+<text x="2070" y="870" font-size="28" fill="#c94a42" font-weight="700">5V_B</text>
+<path d="M 2140 882 L 2140 925" fill="none" stroke="#c94a42" stroke-width="5" stroke-linecap="round"/>
+<path d="M 2140 1095 L 2140 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 2140 1180 L 2140 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 2117 1200 L 2163 1200" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 2124 1212 L 2156 1212" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<path d="M 2133 1224 L 2147 1224" fill="none" stroke="#167b73" stroke-width="5" stroke-linecap="round"/>
+<text x="2092" y="1262" font-size="23" fill="#526575" font-weight="400">GND_B</text>
+<text x="1220" y="1290" font-size="24" fill="#c94a42" font-weight="700">*输出极性前提：功放输入端直流≈0V，此时＋朝PA4。</text>
+<text x="1220" y="1320" font-size="24" fill="#526575" font-weight="400">47nF 缺件可留空；不要用导线或 4.7µF 代替这条支路。</text>
+<rect x="70" y="1380" width="2260" height="350" rx="18" fill="#fff" stroke="#d7e3e6" stroke-width="2"/>
+<text x="100" y="1433" font-size="36" fill="#142838" font-weight="700">④ 两块板分别连接自己的 OLED 与外接按键</text>
+<text x="100" y="1472" font-size="25" fill="#526575" font-weight="400">按实际丝印找引脚：A1=PA1，A2=PA2，A3=PA3，A4=PA4，C0=PC0。</text>
+<text x="120" y="1534" font-size="32" fill="#142838" font-weight="700">OLED</text>
+<text x="120" y="1580" font-size="29" fill="#142838" font-weight="400">PB8 → SCL    PB9 → SDA</text>
+<text x="120" y="1624" font-size="29" fill="#142838" font-weight="400">3V3 → VCC    GND → GND</text>
+<text x="120" y="1671" font-size="25" fill="#526575" font-weight="400">屏幕需支持 3.3V</text>
+<text x="790" y="1534" font-size="29" fill="#142838" font-weight="700">外接按键：另一端都接本机 GND</text>
+<text x="790" y="1580" font-size="27" fill="#142838" font-weight="400">PB1 → K1（文字 / 语音）</text>
+<text x="790" y="1624" font-size="27" fill="#142838" font-weight="400">PB0 → K2（发送 / 接收）</text>
+<text x="790" y="1668" font-size="27" fill="#142838" font-weight="400">PA5 → K3（发送 / 开始停止）</text>
+<text x="1640" y="1534" font-size="31" fill="#c94a42" font-weight="700">K4 已改到 PC0</text>
+<text x="1640" y="1580" font-size="29" fill="#142838" font-weight="400">PC0 → K4 → GND</text>
+<text x="1640" y="1624" font-size="25" fill="#142838" font-weight="400">停止语音、返回文字并清屏</text>
+<text x="1640" y="1668" font-size="25" fill="#526575" font-weight="400">RST、BOOT0 不作为功能按键</text>
+<text x="76" y="1798" font-size="29" fill="#142838" font-weight="700">发送侧共 GND_A，接收侧共 GND_B；两板之间靠光通信，无需连接串口线或地线。</text>
+<text x="76" y="1844" font-size="25" fill="#526575" font-weight="400">小电容留空仅供初调，音频滤波会减弱；正式语音需补合适低通。输入电压和电解极性需测量。</text>
+<text x="605" y="438" font-size="32" fill="#c94a42" font-weight="700">−</text><text x="681" y="438" font-size="32" fill="#c94a42" font-weight="700">+</text><text x="1763" y="987" font-size="32" fill="#c94a42" font-weight="700">+</text><text x="1848" y="987" font-size="32" fill="#c94a42" font-weight="700">−</text><text x="115" y="707" font-size="24" fill="#526575" font-weight="400">滑动端先调到GND端；22nF缺件时该支路留空，不短接、不改成4.7µF。</text><text x="1690" y="1160" font-size="22" fill="#c94a42" font-weight="700">缺件时该支路断开，勿短接</text></svg>

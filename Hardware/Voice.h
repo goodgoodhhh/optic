@@ -16,6 +16,7 @@ typedef struct
 	uint8_t adc_ready;
 	uint8_t recording;
 	uint8_t playing;
+	uint8_t receiving; /* 最近 1 秒内收到 CRC 正确的语音包。 */
 } Voice_Stats;
 
 void Voice_Init(void);

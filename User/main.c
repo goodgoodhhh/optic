@@ -41,9 +41,18 @@ static void UI_Update(void)
 		transmit_mode ? "SEND" : "LISTEN");
 	if (voice_mode)
 	{
-		OLED_Printf(0, 20, OLED_6X8, "IN:%s PLAY:%s",
-			voice.adc_ready ? (voice.recording ? "ON" : "OFF") : "ERR",
-			voice.playing ? "ON" : "OFF");
+		if (transmit_mode)
+		{
+			OLED_Printf(0, 20, OLED_6X8, "IN:%s PLAY:%s",
+				voice.adc_ready ? (voice.recording ? "ON" : "OFF") : "ERR",
+				voice.playing ? "ON" : "OFF");
+		}
+		else
+		{
+			/* 有效语音包到达后保持 RX 一秒，和播放状态分别显示。 */
+			OLED_Printf(0, 20, OLED_6X8, "SIG:%s PLAY:%s",
+				voice.receiving ? "RX" : "WAIT", voice.playing ? "ON" : "OFF");
+		}
 		OLED_Printf(0, 30, OLED_6X8, "LV:%u RX:%lu", (unsigned int)voice.input_level,
 			(unsigned long)voice.rx_packets);
 		OLED_Printf(0, 40, OLED_6X8, "CRC:%lu GAP:%lu", (unsigned long)link.crc_errors,

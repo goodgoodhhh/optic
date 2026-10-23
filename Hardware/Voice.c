@@ -9,6 +9,7 @@
 #define RX_RING_MASK     (RX_RING_SIZE - 1U)
 #define RX_PREFILL       (AUDIO_HALF * 3U)
 #define RX_TIMEOUT_MS    100U
+#define RX_NOTICE_MS     1000U
 #define DAC_SILENCE      2048U
 
 /* 定时器控制采样时刻，DMA 双半区搬运，OLED 主循环阻塞也不会停采样。
@@ -20,6 +21,7 @@ static uint8_t rx_ring[RX_RING_SIZE];
 static volatile uint16_t rx_read, rx_write;
 static volatile uint8_t voice_enabled;
 static volatile uint16_t rx_idle_ms;
+static volatile uint16_t rx_notice_ms;
 static uint8_t tx_sequence, rx_sequence_valid, rx_last_sequence;
 static volatile Voice_Stats audio_stats;
 
@@ -168,6 +170,8 @@ void Voice_Stop(void)
 	__disable_irq();
 	StopCapture();
 	StopPlayback();
+	rx_notice_ms = 0U;
+	audio_stats.receiving = 0U;
 	__set_PRIMASK(mask);
 }
 
@@ -178,6 +182,8 @@ void Voice_SetEnabled(uint8_t enabled)
 	voice_enabled = (enabled != 0U);
 	StopCapture();
 	StopPlayback();
+	rx_notice_ms = 0U;
+	audio_stats.receiving = 0U;
 	__set_PRIMASK(mask);
 }
 
@@ -212,6 +218,9 @@ void Voice_ReceivePacket(const uint8_t *samples, uint8_t sequence)
 	if (!voice_enabled || OOK_IsSendMode()) {__set_PRIMASK(mask); return;}
 	rx_idle_ms = 0U;
 	audio_stats.rx_packets++;
+	/* 即使只收到一包、尚未启动播放，也保留可见的有效接收提示。 */
+	rx_notice_ms = RX_NOTICE_MS;
+	audio_stats.receiving = 1U;
 	if (rx_sequence_valid)
 	{
 		delta = (uint8_t)(sequence - rx_last_sequence);
@@ -238,6 +247,10 @@ void Voice_Tick1ms(void)
 {
 	uint32_t mask = __get_PRIMASK();
 	__disable_irq();
+	if (rx_notice_ms != 0U && --rx_notice_ms == 0U)
+	{
+		audio_stats.receiving = 0U;
+	}
 	if (voice_enabled && !OOK_IsSendMode() && (audio_stats.playing || rx_sequence_valid))
 	{
 		if (++rx_idle_ms >= RX_TIMEOUT_MS) {StopPlayback();}
